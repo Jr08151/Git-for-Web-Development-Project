@@ -1,0 +1,43 @@
+1. What is Semantic HTML? Semantic HTML is the use of HTML markup to reinforce the semantics
+    2. What is HTML used for? It allows the user to create and structure sections, paragraphs, headings, links, and blockquotes for web pages and applications.
+    3. What is an attribute and where do we put it? Attributes provide additional information about an element put after an a tag
+    4. What is the h1 tag used for? How many times should I use it on a page? H1 is the First and Biggest Heading tag and only be used once
+    5. Name two tags that have required attributes? a tag or img tag
+    6. What do we put in the head of our HTML document? <header>
+    7. What is an id? a unique id for an HTML element
+    8. What elements can I add an id to? 
+    9. How many times can I use the same id on a page?  ID can only be used once in any document.
+    10. What is a class? The class is an attribute which specifies one or more class names for an HTML element.
+    11. What elements can I add a class to? 
+    12. How many times can I use the same class on a page? There is no technical limit 
+    13. How do I get my link to open in a new tab? a href=
+    14. What is the alt attribute in the image tag used for? The required alt attribute specifies an alternate text for an image, if the image cannot be displayed.
+    15. How do I reference an id? <h1 id="myHeader"> for example
+    16. What is the difference between a section and a div? he section tag defines sections in a document like chapters, headers, footers whereas div tag defines a division in an HTML document
+    17. What is CSS used for?  CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts
+    18. How to we select an element? Example - every h2 on the page .h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one. id="top"(example) class="section"(example)
+    20. How do we select classes in CSS? If class="hello" then you would select it .hello{}
+    21. How do we select a p element with a single class of “human””? <p class="human">
+    22. What is a parent child selector? When would this be useful? 
+    23. How do you select all links within a div with the class of sidebar? We can use Selectors called Pseudo Classes
+    24. What is a pseudo selector? A pseudo-class is a selector that selects elements that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer
+    25. What do we use the change the spacing between lines? div.a {
+  line-height: normal;
+}
+    26. What do we use to change the spacing between letters? h1 {
+  letter-spacing: 3px;
+}
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? lowercase: makes all of the letters in the selected text lowercase.
+uppercase: makes all of the letters in the selected text uppercase or ALL CAPS.
+capitalize: capitalizes the first letter of each word in the selected text.
+    28. How do I add a 1px border around my div that is dotted and black?p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+    29. How do I select everything on the page? * {}
+    30. How do I write a comment in CSS? /*  */
+    31. How do I find out what file I am in, when I am using the command line? $ pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? $ ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? $rm -rf....once something is deleted its gone no coming back
+    34. Why should I use version control? Version control systems are a category of software tools that help a software team manage changes to source code over time.
+    35. How often should I commit to github? as often as you want on your own work.
+    36. What is the command we would use to push our repo up to github? git push -u origin
